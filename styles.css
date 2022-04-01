@@ -7,49 +7,136 @@ body{
   background-color: black;
   line-height: 1.5em;
   color: black;
-  text-align: center;
+   text-align: center;
   }
+
+  nav{
+    display: block;
+    text-align: center;
+
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  float: left;
+  line-height: .5em;
+}
+
+a {
+  display: block;
+  padding: 2px;
+  background-color: grey;
+  font-size: 14px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
 
 
   img{
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
-    background-color: red;
-    border-radius: 50%;
+
 
     /* I can use max-width: 100% also */
   }
+
+
+
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hbbshop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+  .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+
+
+
   .w3-round{
-    max-width: 30%;
+    /* max-width: 30%; */
     height: auto;
-    background-color: red;
-    border-radius: 8px;
+    /* background-color: red; */
+    /* border-radius: 8px; */
   }
 
   h1{
-    color: blue;
+    color: #f9f9f9;
+    text-align: center;
+
+
+
   }
   h2{
-    color: blue;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: black;
+
   }
 
   h3{
-    color: blue;
+    color: black;
+    text-align: center;
+
   }
 
   .wrapper{
     width: 90%;
     margin: auto;
     padding: 10px;
-    background-color: grey;
+    background-color: white;
 
   }
 
   .flex-container{
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-start;
     align-items: center;
     flex-wrap: wrap;
     align-content: space-between;
+    flex-direction: row;
 
   }
+
+  .top{
+    text-align: center;
+    align-items: center;
+  }
+
+
+.flex-container div{
+  width: 30%;
+  line-height: 1.2em;
+}
