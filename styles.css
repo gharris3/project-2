@@ -3,7 +3,7 @@ body{
   padding: 0;
   font-size: 16px;
   /* Base font size */
-  font-family: Helvetica, sans-serif;
+  font-family: font-family: "Open Sans Condensed", sans-serif;
   background-color: black;
   line-height: 1.5em;
   color: black;
@@ -101,7 +101,9 @@ li a:hover {
     color: black;
     text-align: center;
     text-decoration: underline;
-    text-shadow: black;
+    font-weight: bold;
+    
+
 
   }
 
