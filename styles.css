@@ -27,13 +27,14 @@ body{
 li {
   display: inline;
   float: left;
-  line-height: .5em;
+  line-height: 1.5em;
 }
 
 a {
   display: block;
   padding: 2px;
   font-size: 10px;
+  color: white;
 }
 
 li a {
