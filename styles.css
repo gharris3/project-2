@@ -18,9 +18,17 @@ body{
 
   }
 
+  .appointment{
+    background-color: black;
+    color: white;
+  }
+
   ul {
   overflow: hidden;
-  background-color: #333;
+  background-color: #5c2c2c;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
 }
 
 li {
@@ -121,7 +129,7 @@ li a:hover {
   }
 
   .wrapper{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 10px;
     background-color: white;
