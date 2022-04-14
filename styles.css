@@ -3,7 +3,7 @@ body{
   padding: 0;
   font-size: 16px;
   /* Base font size */
-  font-family: font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   background-color: black;
   line-height: 1.5em;
   color: black;
@@ -21,6 +21,11 @@ body{
   .appointment{
     background-color: black;
     color: white;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    margin: 10px;
+
   }
 
   ul {
@@ -69,7 +74,7 @@ li a:hover {
 
 
   .w3-round{
-      max-width: 150px;
+      /* max-width: 150px; */
       height: auto;
 
   }
@@ -79,11 +84,12 @@ li a:hover {
 
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hbbshop.jpg");
+  background-image: url("images/hbbshop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 50vh;
 
 }
 
@@ -137,7 +143,7 @@ li a:hover {
   }
 
   h4{
-    color: #black;
+    color: #5c2c2c;
     text-align: center;
     font-weight: bold;
     font-size: 2.5em;
@@ -172,7 +178,7 @@ li a:hover {
     justify-content:flex-start;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-left: 25px;
     padding-right: 25px;
@@ -184,6 +190,7 @@ li a:hover {
   .top{
     text-align: center;
     align-items: center;
+    color: black;
   }
 
   .float{
@@ -200,7 +207,7 @@ li a:hover {
   height: auto;
   line-height: 1.3em;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 
 
 }
@@ -230,7 +237,7 @@ li a:hover {
 }
 
 .contact-form input{
-  height: 14px;
+  height: 40px;
   font-size: 1.1em;
   max-width: 100%;
 
@@ -258,5 +265,37 @@ li a:hover {
     height: 60px;
     background-color: #5c2c2c;
     text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
   }
+
+
+
+
+
+
+  @media only screen and (min-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+
+
+.hero-image{
+  height: 80vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
