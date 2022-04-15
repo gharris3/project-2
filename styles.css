@@ -19,7 +19,7 @@ body{
   }
 
   .appointment{
-    background-color: black;
+    background-color: #5c2c2c;
     color: white;
     cursor: pointer;
     border: none;
@@ -30,7 +30,7 @@ body{
 
   ul {
   overflow: hidden;
-  background-color: #5c2c2c;
+  background-color: #black;
   width: 100%;
   margin: auto;
   padding: 10px;
@@ -131,6 +131,7 @@ li a:hover {
     color: #5c2c2c;
     text-align: center;
     font-weight: bold;
+    font-size: 3.5em;
 
 
 
@@ -146,12 +147,36 @@ li a:hover {
     color: #5c2c2c;
     text-align: center;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 3.5em;
     background-blend-mode: color-burn;
 
 
+  }
+
+  h5{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
 
   }
+
+  h6{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+
+  }
+
+
+  h7{
+    color: #5c2c2c;
+    text-align: center;
+
+  }
+
+
 
   .wrapper{
     width: 100%;
@@ -165,7 +190,18 @@ li a:hover {
     width: 100%;
     margin: auto;
     padding: 1px;
-    background-color: darkgrey;
+    background-color: white;
+    padding-bottom: 25px;
+
+
+  }
+
+  .wrapper3{
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+    background-color: black;
     padding-bottom: 25px;
 
 
@@ -271,6 +307,22 @@ li a:hover {
 
   }
 
+  .grid-container {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
 
 
 
@@ -278,7 +330,7 @@ li a:hover {
 
   @media only screen and (min-width: 700px) {
   body {
-    background-color: lightblue;
+    background-color: black;
   }
 
 
@@ -288,7 +340,95 @@ li a:hover {
 }
 
 
+.wrapper2{
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+  background-color: black;
+  padding-bottom: 25px;
+  color: white;
 
+
+
+}
+
+img{
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  /* I can use max-width: 100% also */
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  /* Base font size */
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: black;
+  line-height: 1.5em;
+  color: black;
+
+
+
+}
+
+
+.wrapper{
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+
+
+}
+
+h6{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+
+
+.contact-form input, .contact-form textarea{
+  display: block;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px grey solid;
+  border-radius: 3px;
+  max-width: 100%;
+
+}
+
+
+h7{
+  color: #5c2c2c;
+  font-size: 2.5em;
+
+
+}
+
+
+.contact-form input[type="submit"]{
+  color: white;
+  background-color: #5c2c2c;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  height: 33px;
+  border: none;
+  width: 150px;
+  margin-right: auto;
+
+
+
+}
 
 
 
